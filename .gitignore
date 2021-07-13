@@ -1,0 +1,5 @@
+/build/
+/devel/
+/.directory
+/.catkin_workspace
+/.idea
