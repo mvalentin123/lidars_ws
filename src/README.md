@@ -16,6 +16,10 @@ livox_ros_driver is a new ROS package, specially used to connect LiDAR products 
 
 ### 0.3 Connecting to computer
 
+All Horizon Lidar sensors are set to static IP address mode by default with an IP adress of 192.168.1.1XX (XX stands for the last two digit of the serial number)
+
+In our case our Lidar has an IP:  192.168.128
+
 Set the static IP address of the computer to 192.168.1.50 and the subnet mask to 255.255.255.0.
 
 In ubuntu 16.04 system
@@ -27,6 +31,9 @@ In ubuntu 16.04 system
 ```
 
 replace "enp4s0" with the network port name of the computer.
+
+
+Connect as shown on image below
 
 ![Broadcast Code](images/livox_connection.png)
 
