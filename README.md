@@ -10,9 +10,10 @@
 
 We can see in this view the scanning pattern of the lidAR
 
+
 <ins>Robosense</ins>
 
-
+![Robosense RSLIDARM1](media/rslidarm1_pcl.gif)
 
 
 
@@ -30,4 +31,6 @@ Lidar        | Price (USD)  | PointCloud Quality | Robustness in OffRoad | Size 
 
 
 
+**Extra**
 
+The RS-Lidar_M1 we have now is the revision B2. The new B3 has holes for ventilation in the outer case and is compatible with the new ROS Driver that still has support. I have contacted Robosense technical support for more information.
