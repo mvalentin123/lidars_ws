@@ -34,3 +34,11 @@ Lidar        | Price (USD)  | PointCloud Quality | Robustness in OffRoad | Size 
 **Extra**
 
 The RS-Lidar_M1 we have now is the revision B2. The new B3 has holes for ventilation in the outer case and is compatible with the new ROS Driver that still has support. I have contacted Robosense technical support for more information.
+
+
+**Conclusion**
+
+RS-Lidar-M1 is not ready for testing until we can solve the packet loss (technical support is investigating the problem). Furthermore we can analyze the possibility of acquiring the new revision B3 which has a supported ros driver and test that version. Surprisingly Livox Horizon which is much cheaper than their competitors does not sacrifices quality and the ros driver is well documented and there was no issues whatsoever with the point cloud. Perhaps the only problem may be the way it scans its Field of View but in general looks promising for field testing. One issue regarding this two sensors may be the diffulty in the modeling of the sensor to test in simulation as it does not follow the traditional approach as the rotating ones such as the Velodyne VLP-16. 
+
+
+
